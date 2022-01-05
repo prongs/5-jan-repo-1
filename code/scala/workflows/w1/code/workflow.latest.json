@@ -31,6 +31,12 @@
     "sourcePort" : "68062",
     "target" : "Filter_66926",
     "targetPort" : "80571"
+  }, {
+    "id" : "972",
+    "source" : "Filter_66926",
+    "sourcePort" : "13910",
+    "target" : "Filter_94792",
+    "targetPort" : "26488"
   } ],
   "processes" : {
     "Source_82303" : {
@@ -74,6 +80,36 @@
         } ],
         "outputs" : [ {
           "id" : "13910",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "condition" : {
+          "format" : "scala",
+          "expression" : "lit(true)"
+        }
+      }
+    },
+    "Filter_94792" : {
+      "id" : "Filter_94792",
+      "component" : "Filter",
+      "metadata" : {
+        "label" : "Filter_2",
+        "slug" : "Filter_2",
+        "x" : 315,
+        "y" : 105,
+        "language" : "scala",
+        "phase" : 0
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "26488",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "98591",
           "slug" : "out"
         } ],
         "selectedInputFields" : [ ]
