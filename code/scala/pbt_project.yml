@@ -26,4 +26,9 @@ datasets:
         description: ''
         author: rajat@prophecy.io
         createdAt: '2022-01-05 10:38:45'
-schedules: {}
+schedules:
+  schedules/test_101:
+    name: test_101
+    description: ''
+    createdAt: '2022-01-05 11:05:47'
+    author: kuldeep@simpledatalabs.com
