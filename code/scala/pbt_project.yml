@@ -13,5 +13,17 @@ workflows:
     datasets:
       inputs: []
       outputs: []
-datasets: {}
+datasets:
+  datasets/s1:
+    name: s1
+    description: ''
+    author: rajat@prophecy.io
+    createdAt: '2022-01-05 10:38:45'
+    physicalDatasets:
+      dev:
+        fabricId: 44
+        datasetType: File
+        description: ''
+        author: rajat@prophecy.io
+        createdAt: '2022-01-05 10:38:45'
 schedules: {}
