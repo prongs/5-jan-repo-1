@@ -1,0 +1,17 @@
+name: group2-project
+description: ''
+version: 1
+author: rajat@prophecy.io
+workflows:
+  workflows/w1:
+    name: w1
+    description: null
+    author: rajat@prophecy.io
+    mode: batch
+    language: scala
+    createdAt: '2022-01-05 10:32:35'
+    datasets:
+      inputs: []
+      outputs: []
+datasets: {}
+schedules: {}
