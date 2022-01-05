@@ -98,8 +98,8 @@
       "metadata" : {
         "label" : "Filter_2",
         "slug" : "Filter_2",
-        "x" : 315,
-        "y" : 105,
+        "x" : 663,
+        "y" : 101,
         "language" : "scala",
         "phase" : 0
       },
@@ -117,8 +117,8 @@
       "properties" : {
         "columnsSelector" : [ ],
         "condition" : {
-          "format" : "scala",
-          "expression" : "lit(true)"
+          "format" : "sql",
+          "expression" : "true"
         }
       }
     }
