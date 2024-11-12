@@ -1,0 +1,69 @@
+{
+  "metainfo" : {
+    "type" : "Databricks",
+    "fabricId" : "1",
+    "jobId" : "jobs/dj1",
+    "name" : "dj1",
+    "schedule" : "None",
+    "scheduleTimeZone" : "UTC",
+    "jobClusterMode" : {
+      "clusterMode" : "Single"
+    },
+    "enabled" : false,
+    "defaultClusterSize" : "small",
+    "alerting" : {
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    },
+    "maxConcurrentRuns" : 1,
+    "processDefaultSettings" : {
+      "retries" : 0,
+      "emails" : "",
+      "onStart" : false,
+      "onSuccess" : false,
+      "onFailure" : false
+    }
+  },
+  "processes" : {
+    "VTpHhBedKVqpdchAAuwZG$$z0cMgNnPE8gGEAyVkcb1P" : {
+      "id" : "VTpHhBedKVqpdchAAuwZG$$z0cMgNnPE8gGEAyVkcb1P",
+      "component" : "Pipeline",
+      "metadata" : {
+        "label" : "ext-git-py-p1",
+        "slug" : "ext_git_py_p1",
+        "x" : -200.39999389648438,
+        "y" : -222
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "7JRViyqiiomdNIqNZKZVc$$hSuWgg94B6SVgKYZpFuX9",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "MqRcg530QleZA13_8Cmyv$$qMVkN4ADSZ2hOvs1qvGXC",
+          "slug" : ""
+        } ]
+      },
+      "settings" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      },
+      "properties" : {
+        "pipelineId" : "pipelines/ext-git-py-p1",
+        "configurations" : {
+          "schema" : [ ],
+          "instances" : {
+            "ext-git-py-1" : [ "default" ]
+          },
+          "overrides" : { },
+          "selectedInstance" : "default"
+        }
+      }
+    }
+  },
+  "connections" : [ ]
+}
