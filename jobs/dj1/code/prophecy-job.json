@@ -33,8 +33,8 @@
       "metadata" : {
         "label" : "ext-git-py-p1",
         "slug" : "ext_git_py_p1",
-        "x" : -200.39999389648438,
-        "y" : -222
+        "x" : -200,
+        "y" : -220
       },
       "ports" : {
         "inputs" : [ {
@@ -62,6 +62,66 @@
           "overrides" : { },
           "selectedInstance" : "default"
         }
+      }
+    },
+    "XrlaBC5JQcyARIv802Vkp$$_JbbXbbce4VsAO9MRuw4Z" : {
+      "id" : "XrlaBC5JQcyARIv802Vkp$$_JbbXbbce4VsAO9MRuw4Z",
+      "component" : "Model",
+      "metadata" : {
+        "label" : "Model_1",
+        "slug" : "Model_1",
+        "x" : -560,
+        "y" : -580
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "uqtnWur5DYA4s7mqSoMNX$$91JOrokUou1YoOIeUac-q",
+          "slug" : ""
+        } ],
+        "outputs" : [ {
+          "id" : "8jYN5Z0B-Dq2is_C3QGg3$$CoXLF1HhyqMNNLYaByA3N",
+          "slug" : ""
+        } ]
+      },
+      "settings" : {
+        "emails" : "",
+        "onStart" : false,
+        "onSuccess" : false,
+        "onFailure" : false
+      },
+      "properties" : {
+        "entityId" : null,
+        "execSeed" : true,
+        "execRun" : false,
+        "gitEntity" : "branch",
+        "projectId" : "52",
+        "runOnlyModel" : "false",
+        "loadingModels" : false,
+        "entityName" : null,
+        "gitEntityValueTag" : null,
+        "profile" : "run_profile",
+        "sqlFabricId" : "19",
+        "gitEntityValue" : "main",
+        "execDeps" : false,
+        "gitEntityValueCommit" : null,
+        "gitEntityValueBranch" : "main",
+        "execTest" : true,
+        "currentProjectModels" : [ {
+          "label" : "smallmodel",
+          "value" : "smallmodel",
+          "id" : "52/.prophecy/metadata/sqlmodels/smallmodel",
+          "name" : "smallmodel"
+        }, {
+          "label" : "alteryx2",
+          "value" : "alteryx2",
+          "id" : "52/.prophecy/metadata/sqlmodels/alteryx2",
+          "name" : "alteryx2"
+        }, {
+          "label" : "bigmodel",
+          "value" : "bigmodel",
+          "id" : "52/.prophecy/metadata/sqlmodels/bigmodel",
+          "name" : "bigmodel"
+        } ]
       }
     }
   },

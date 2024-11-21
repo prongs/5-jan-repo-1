@@ -52,7 +52,8 @@ jobs:
     createdAt: '2024-11-12 06:00:34'
     author: rajat+1@prophecy.io
     models: []
-    sqlProjects: []
+    sqlProjects:
+    - '52'
 gemContainer:
   languageVersion: '3.10'
   gemLibsVersion: 1.3.4.0
